@@ -1,13 +1,18 @@
 Pod::Spec.new do |s|
-s.name         = 'MyTest'
-s.version      = '0.0.1'
-s.summary      = 'An easy way to use pull-to-refresh'
-s.homepage     = 'https://github.com/CoderMJLee/MJRefresh'
-s.license      = 'MIT'
-s.authors      = {'MJ Lee' => '199109106@qq.com'}
-s.platform     = :ios, '6.0'
-s.source       = {:git => 'https://github.com/CoderMJLee/MJRefresh.git', :tag => s.version}
-s.source_files = 'MJRefresh/**/*.{h,m}'
-s.resource     = 'MJRefresh/MJRefresh.bundle'
+
+
+s.name         = "MyTest"
+s.version      = "0.0.1"
+s.summary      = "A short description of MyTest."
+s.homepage     = "https://github.com/1095033639/MyTest"
+s.license      = { :type => "MIT", :file => "LICENSE" }
+s.author             = { "sdscx" => "1095033639@qq.com" }
+
+s.platform     = :ios, "5.0"
+
+s.source       = { :git => "https://github.com/1095033639/MyTest.git", :tag => s.version }
+s.source_files  =  "MyTest/**/*.{h,m}"
 s.requires_arc = true
+
 end
+
