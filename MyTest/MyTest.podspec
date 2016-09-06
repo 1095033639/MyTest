@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 
 s.name         = "MyTest"
-s.version      = "0.0.1"
+s.version      = "0.0.3"
 s.summary      = "A short description of MyTest."
 s.homepage     = "https://github.com/1095033639/MyTest"
 s.license      = { :type => "MIT", :file => "LICENSE" }
